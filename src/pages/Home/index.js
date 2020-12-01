@@ -50,6 +50,12 @@ const Home = (props) => {
             onPress={() => props.navigation.navigate('ManageFood')}
           />
         </View>
+        <View style={styles.button}>
+          <Button
+            title="Teman"
+            onPress={() => props.navigation.navigate('ListFriends')}
+          />
+        </View>
       </View>
     </SafeAreaView>
   );
